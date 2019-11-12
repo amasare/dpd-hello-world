@@ -1,0 +1,11 @@
+# Default pipeline from cli
+steps:
+  - label: ':pipeline:'
+    command: echo 'stuff'
+
+  - label: ':sparkles: lint'
+    plugins:
+      - https://github.com/amasare/buildkite-plugin-hello-world:
+          hello_name: IA
+    agents: 
+      queue: 'base-agent'
