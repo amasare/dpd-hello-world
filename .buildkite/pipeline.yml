@@ -3,6 +3,6 @@ steps:
   - label: ':electric_plug: output hello world :electric_plug:'
     plugins:
       - https://github.com/amasare/buildkite-plugin-hello-world:
-          name: 'James Blunt'
+          name: 'James Blunt 2'
     agents: 
       queue: 'base-agent'
